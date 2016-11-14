@@ -14,6 +14,23 @@ body{
 .padding{
   padding: 16px;
 }
+#reunidos-logo-extend{
+  height: 44px;
+  background: white;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+  width: 275px;
+  text-align: center;
+  line-height: 44px;
+  @include boxShadow(-1px, 2px, .2);
+  img{
+    max-height: 26px;
+    width: auto;
+    margin: 9px 0;
+  }
+}
 #logo-menu{
   max-height: 42px;
   img{
@@ -93,4 +110,5 @@ i.icon-smu{
 }
 .has-header{
   top: 135px;
+  bottom: 44px;
 }

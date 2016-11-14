@@ -1,0 +1,4 @@
+@mixin boxShadow($vertical, $blur, $opacity) {
+  -webkit-box-shadow: 0 $vertical $blur 0 rgba(0,0,0,$opacity);
+  box-shadow: 0 $vertical $blur 0 rgba(0,0,0,$opacity);
+}

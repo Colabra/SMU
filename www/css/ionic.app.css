@@ -9856,6 +9856,23 @@ body {
 .padding {
   padding: 16px; }
 
+#reunidos-logo-extend {
+  height: 44px;
+  background: white;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+  width: 275px;
+  text-align: center;
+  line-height: 44px;
+  -webkit-box-shadow: 0 -1px 2px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 -1px 2px 0 rgba(0, 0, 0, 0.2); }
+  #reunidos-logo-extend img {
+    max-height: 26px;
+    width: auto;
+    margin: 9px 0; }
+
 #logo-menu {
   max-height: 42px; }
   #logo-menu img {
@@ -9919,4 +9936,5 @@ i.icon-smu {
   background: #d70f18; }
 
 .has-header {
-  top: 135px; }
+  top: 135px;
+  bottom: 44px; }
