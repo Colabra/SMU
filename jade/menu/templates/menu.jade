@@ -1,0 +1,22 @@
+ion-side-menus(enable-menu-with-back-views='false')
+  ion-side-menu-content
+    ion-nav-bar.bar-positive
+      ion-nav-buttons(side='right')
+        button.button.button-icon.button-clear.ion-navicon(menu-toggle='right')
+    ion-nav-view(name='menuContent')
+  ion-side-menu(side='right')
+    ion-header-bar.bar-dark
+      h1.title Hola, 
+        strong Usuario
+    ion-content.has-header
+      ion-list
+        ion-item.item-icon-left.item-icon-right(menu-close='',href="#/app/home")
+          i.icon.ion-android-home
+          | InicioooOOooOO
+          i.icon.ion-ios-arrow-forward
+        ion-item.item-icon-left.item-icon-right(menu-close='',href="#/app/status")
+          i.icon.ion-android-home
+          | Status
+          i.icon.ion-ios-arrow-forward
+        
+        

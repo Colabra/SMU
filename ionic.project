@@ -1,0 +1,15 @@
+{
+  "name": "appSMU",
+  "app_id": "",
+  "gulpStartupTasks": [
+    "jade",
+    "sass",
+    "watch",
+    "copy-js"
+  ],
+  "watchPatterns": [
+    "www/**/**/*",
+    "jade/**/**/*",
+    "!www/lib/**/*"
+  ]
+}
