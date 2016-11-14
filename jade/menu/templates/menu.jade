@@ -1,22 +1,35 @@
-ion-side-menus(enable-menu-with-back-views='false')
+ion-side-menus(enable-menu-with-back-views='true')
   ion-side-menu-content
-    ion-nav-bar.bar-positive
+    ion-nav-bar.bar-red
       ion-nav-buttons(side='right')
-        button.button.button-icon.button-clear.ion-navicon(menu-toggle='right')
+        #logo-menu
+          img(src="../img/reunidos-logo-circle.svg")
+        //- button.button.button-icon.button-clear.ion-navicon(menu-toggle='right')
     ion-nav-view(name='menuContent')
   ion-side-menu(side='right')
     ion-header-bar.bar-dark
-      h1.title Hola, 
-        strong Usuario
+      #logo-header
+        img(src="../img/reunidos-logo-circle.svg")
     ion-content.has-header
       ion-list
         ion-item.item-icon-left.item-icon-right(menu-close='',href="#/app/home")
-          i.icon.ion-android-home
-          | InicioooOOooOO
-          i.icon.ion-ios-arrow-forward
-        ion-item.item-icon-left.item-icon-right(menu-close='',href="#/app/status")
-          i.icon.ion-android-home
-          | Status
-          i.icon.ion-ios-arrow-forward
-        
-        
+          i.icon-smu.ico-home
+          | Inicio
+        ion-item.item-icon-left.item-icon-right(menu-close='',href="#/app/ultimo-minuto")
+          i.icon-smu.ico-clock
+          | Último minuto
+        ion-item.item-icon-left.item-icon-right(menu-close='',href="#/app/noticias")
+          i.icon-smu.ico-newspaper
+          | Noticias
+        ion-item.item-icon-left.item-icon-right(menu-close='',href="#/app/beneficios")
+          i.icon-smu.ico-benefits
+          | Beneficios
+        ion-item.item-icon-left.item-icon-right(menu-close='',href="#/app/videos")
+          i.icon-smu.ico-videos
+          | Videos
+        ion-item.item-icon-left.item-icon-right(menu-close='',href="#/app/te-puede-servir")
+          i.icon-smu.ico-utils
+          | Te puede servir
+        ion-item.item-icon-left.item-icon-right(menu-close='',href="#/app/informe-prensa")
+          i.icon-smu.ico-press
+          | Informe de prensa

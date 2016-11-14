@@ -35,8 +35,8 @@
                 views: {
                     'menuContent': {
                         templateUrl: 'app/status/templates/status.html',
-                        controller: 'StatusController',
-                        controllerAs: 'status'
+                        //controller: 'StatusController',
+                        //controllerAs: 'status'
                     }
                 }
             });

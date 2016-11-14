@@ -1,6 +1,16 @@
-ion-view(view-title='Home', ng-class="banco")
-  ion-content
+ion-view(view-title='Inicio')
+  ion-content(has-bouncing='false')
+    ion-slide-box.slider-home
+      ion-slide
+        a(href="#")
+          .banner
+            .half 
+              p texto
+            img(scr="img/slide-01.jpg")
+  
+    .video
+      p aquí va un video
     .padding
-      .padding
-        h1 {{home.tituloTest}}
-        h2 lalala
+      h1 {{home.tituloTest}}
+      h2 lalala
+      button.button.button-icon.button-clear.ion-navicon(menu-toggle='right' style="color: black")

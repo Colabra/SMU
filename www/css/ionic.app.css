@@ -9814,3 +9814,109 @@ a.button {
   opacity: 0;
   -webkit-transition-duration: 0s;
   transition-duration: 0s; }
+
+@font-face {
+  font-family: 'Verdana';
+  src: url("../fonts/verdana/Verdana-Italic.eot");
+  src: url("../fonts/verdana/Verdana-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/verdana/Verdana-Italic.woff2") format("woff2"), url("../fonts/verdana/Verdana-Italic.woff") format("woff"), url("../fonts/verdana/Verdana-Italic.ttf") format("truetype"), url("../fonts/verdana/Verdana-Italic.svg#Verdana-Italic") format("svg");
+  font-weight: normal;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Verdana';
+  src: url("../fonts/verdana/Verdana-BoldItalic.eot");
+  src: url("../fonts/verdana/Verdana-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/verdana/Verdana-BoldItalic.woff2") format("woff2"), url("../fonts/verdana/Verdana-BoldItalic.woff") format("woff"), url("../fonts/verdana/Verdana-BoldItalic.ttf") format("truetype"), url("../fonts/verdana/Verdana-BoldItalic.svg#Verdana-BoldItalic") format("svg");
+  font-weight: bold;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Verdana';
+  src: url("../fonts/verdana/Verdana-Bold.eot");
+  src: url("../fonts/verdana/Verdana-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/verdana/Verdana-Bold.woff2") format("woff2"), url("../fonts/verdana/Verdana-Bold.woff") format("woff"), url("../fonts/verdana/Verdana-Bold.ttf") format("truetype"), url("../fonts/verdana/Verdana-Bold.svg#Verdana-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Verdana';
+  src: url("../fonts/verdana/Verdana.eot");
+  src: url("../fonts/verdana/Verdana.eot?#iefix") format("embedded-opentype"), url("../fonts/verdana/Verdana.woff2") format("woff2"), url("../fonts/verdana/Verdana.woff") format("woff"), url("../fonts/verdana/Verdana.ttf") format("truetype"), url("../fonts/verdana/Verdana.svg#Verdana") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+body {
+  font: normal normal 14px "Verdana", sans-serif; }
+
+.bar.bar-red {
+  background: #d70f18;
+  color: white; }
+  .bar.bar-red .title {
+    font-weight: bold;
+    text-align: left; }
+
+.padding {
+  padding: 16px; }
+
+#logo-menu {
+  max-height: 42px; }
+  #logo-menu img {
+    height: 100%;
+    width: auto; }
+
+#logo-header {
+  width: 74px;
+  height: 74px;
+  position: absolute;
+  left: 50%;
+  top: 50%; }
+  #logo-header img {
+    width: 100%;
+    height: auto;
+    margin: -37px 0 0 -37px; }
+
+.slider-home .banner img {
+  display: block;
+  width: 100%;
+  height: auto; }
+
+i.icon-smu {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  margin: 0 3px;
+  overflow: hidden;
+  background: url("../img/icon-sprite.svg") no-repeat 0 0; }
+  i.icon-smu.ico-home {
+    background-position: 0 0; }
+  i.icon-smu.ico-clock {
+    background-position: -24px 0; }
+  i.icon-smu.ico-newspaper {
+    background-position: -48px 0; }
+  i.icon-smu.ico-benefits {
+    background-position: -72px 0; }
+  i.icon-smu.ico-videos {
+    background-position: -96px 0; }
+  i.icon-smu.ico-utils {
+    background-position: -120px 0; }
+  i.icon-smu.ico-press {
+    background-position: -144px 0; }
+
+.list i.icon-smu {
+  position: absolute;
+  left: 14px;
+  top: 50%;
+  margin: -12px 0 0 0; }
+
+.item-complex a.item-content {
+  background: #f7f7f7;
+  color: #87868a; }
+
+.item {
+  border-bottom: 1px solid #d8d9dd; }
+
+.menu .bar-header {
+  height: 135px;
+  position: relative;
+  background: #d70f18; }
+
+.has-header {
+  top: 135px; }

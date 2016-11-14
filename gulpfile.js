@@ -10,7 +10,7 @@ var inject = require('gulp-inject');
 var jade = require( 'gulp-jade' );
 
 var paths = {
-  sass: ['./scss/**/*.scss'],
+  sass: ['./scss/*.scss'],
   jade: ['./jade/**/*.jade'],
   js: ['./jade/**/*.js'],
   modules: ['./www/app/**/**/*.js'],

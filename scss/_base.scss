@@ -1,0 +1,96 @@
+body{
+  font: $font-base;
+}
+.bar{
+  &.bar-red{
+    background: $red;
+    color: white;
+    .title{
+      font-weight: bold;
+      text-align: left;
+    }
+  }
+}
+.padding{
+  padding: 16px;
+}
+#logo-menu{
+  max-height: 42px;
+  img{
+    height: 100%;
+    width: auto;
+  }
+}
+#logo-header{
+  width: 74px;
+  height: 74px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  img{
+    width: 100%;
+    height: auto;
+    margin: -37px 0 0 -37px;
+  }
+}
+.slider-home{
+  .banner{
+    img{
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+i.icon-smu{
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  margin: 0 3px;
+  overflow: hidden;
+  background: url('../img/icon-sprite.svg') no-repeat 0 0;
+  &.ico-home{
+    background-position: 0 0;
+  }
+  &.ico-clock{
+    background-position: -24px 0;
+  }
+  &.ico-newspaper{
+    background-position: -48px 0;
+  }
+  &.ico-benefits{
+    background-position: -72px 0;
+  }
+  &.ico-videos{
+    background-position: -96px 0;
+  }
+  &.ico-utils{
+    background-position: -120px 0;
+  }
+  &.ico-press{
+    background-position: -144px 0;
+  }
+}
+.list{
+  i.icon-smu{
+    position: absolute;
+    left: 14px;
+    top: 50%;
+    margin: -12px 0 0 0;
+  }
+}
+.item-complex a.item-content{
+  background: $soft-gray;
+  color: $color-menu;
+}
+.item{
+  border-bottom: 1px solid $border-gray;
+}
+.menu .bar-header{
+  height: 135px;
+  position: relative;
+  background: $red;
+}
+.has-header{
+  top: 135px;
+}
