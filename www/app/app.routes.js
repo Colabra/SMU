@@ -15,13 +15,14 @@
         $stateProvider
 
             .state('app', {
-                url: '/',
+                url: '/app',
                 abstract: true,
                 templateUrl: 'app/menu/templates/menu.html'
                 //controller: 'MenuController'
             })
             .state('app.home', {
-                url: 'home',
+                cache: false,
+                url: '/home',
                 views: {
                     'menuContent': {
                         templateUrl: 'app/home/templates/home.html',
@@ -30,13 +31,14 @@
                     }
                 }
             })
-            .state('app.status', {
-                url: 'status',
+            .state('app.ultimo-minuto', {
+                cache: false,
+                url: '/ultimo-minuto',
                 views: {
                     'menuContent': {
-                        templateUrl: 'app/status/templates/status.html',
-                        //controller: 'StatusController',
-                        //controllerAs: 'status'
+                        templateUrl: 'app/ultimoMinuto/templates/ultimoMinuto.html',
+                        controller: 'UltimoMinutoController',
+                        controllerAs: 'ultimoMinuto'
                     }
                 }
             });
@@ -44,7 +46,7 @@
         // Each tab has its own nav history stack which is defined in the corresponding module.
 
         // if none of the above states are matched, use this as the fallback
-        $urlRouterProvider.otherwise('home');
+        $urlRouterProvider.otherwise('/app/home');
     }
 
 })();

@@ -8,6 +8,13 @@ body{
     .title{
       font-weight: bold;
       text-align: left;
+      left: 45px !important;
+      right: 45px !important;
+    }
+    .buttons-right{
+      span{
+        width: 34px;
+      }
     }
   }
 }
@@ -108,7 +115,7 @@ i.icon-smu{
   position: relative;
   background: $red;
 }
-.has-header{
+.menu .has-header{
   top: 135px;
   bottom: 44px;
 }

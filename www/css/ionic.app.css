@@ -9851,7 +9851,11 @@ body {
   color: white; }
   .bar.bar-red .title {
     font-weight: bold;
-    text-align: left; }
+    text-align: left;
+    left: 45px !important;
+    right: 45px !important; }
+  .bar.bar-red .buttons-right span {
+    width: 34px; }
 
 .padding {
   padding: 16px; }
@@ -9935,6 +9939,6 @@ i.icon-smu {
   position: relative;
   background: #d70f18; }
 
-.has-header {
+.menu .has-header {
   top: 135px;
   bottom: 44px; }
